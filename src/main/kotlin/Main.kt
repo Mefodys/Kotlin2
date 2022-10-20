@@ -122,9 +122,9 @@ fun main(){
 
     val mylist = listOf("line 1", "line 2")
 
-    mylist.forEach {
-        builder.appendValue { transform(it) }
-    }
+//    mylist.forEach {
+//        builder.appendValue { transform(it) }
+//    }
 
 
     val nameList= listOf<String>("John", "mark", "mila", "brandy", "Quater") // List<String>
